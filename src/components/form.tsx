@@ -21,8 +21,8 @@ function Form() {
 
     }
     return (
-        <div>
-            <form className="w-75 mx-auto p-2" action="" onSubmit={handleForm}>
+        <div className="container">
+            <form className=" mx-auto p-2" action="" onSubmit={handleForm}>
                 <h1 className="pt-5">Avtomobil Jarim Formasi</h1>
 
                 <div className="py-2">
@@ -118,8 +118,8 @@ function Form() {
 
 
             {/*  */}
-            <div id="Jarima" className="p-2 mb-3">
-                <div className="w-75 mx-auto">
+            <div id="Jarima" className="container p-2 mb-3">
+                <div className=" mx-auto">
                     <h4>✅Avtomatik yaratilgan jarima blankasi:</h4>
                     <div className="bg-light border rounded p-3">
                     <h3 className="text-center py-2">Hurmatli {FormData.firstname == '' &&  <b>Polonkasov Polonkas</b> || <b>{FormData.firstname}</b>}</h3>
