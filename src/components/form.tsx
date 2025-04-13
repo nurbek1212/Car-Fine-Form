@@ -122,7 +122,7 @@ function Form() {
                 <div className=" mx-auto">
                     <h4>✅Avtomatik yaratilgan jarima blankasi:</h4>
                     <div className="bg-light border rounded p-3">
-                    <h3 className="text-center py-2">Hurmatli {FormData.firstname == '' &&  <b>Polonkasov Polonkas</b> || <b>{FormData.firstname}</b>}</h3>
+                    <h5 className="text-center py-2">Hurmatli {FormData.firstname == '' &&  <b>Polonkasov Polonkas</b> || <b>{FormData.firstname}</b>}</h5>
                         <div className="row g-3">
                             <div className="col-lg-8">
                                 <p>Sizga tegishli bo`lgan {FormData.secondname == '' && <b>[Avtomobil raqami]</b> || <b>{FormData.secondname}</b>} rusumli avtomobil <b>{FormData.run == '' && <b>[Tezlik]</b> || <b>{FormData.run}</b>}</b> texlik tezlikda harakatlanib,</p>
